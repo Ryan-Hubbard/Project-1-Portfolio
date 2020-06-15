@@ -64,7 +64,7 @@ After discussing with my project group members, I discovered that I was using an
 
 ## Splash Screen
 
-After having trouble trying to implement some more advanced features on the app, after a sprint retrospective I decided that I would try to implement something simple like a splash screen for the app. To do this I followed this tutorial https://medium.com/@appstud/add-a-splash-screen-to-a-react-native-app-810492e773f9.
+After having trouble trying to implement some more advanced features on the app, after a sprint retrospective I decided that I would try to implement something simple like a splash screen for the app. To do this I followed this [tutorial](https://medium.com/@appstud/add-a-splash-screen-to-a-react-native-app-810492e773f9).
 The first error I encountered when trying to implement the splash screen was that I didn’t correctly name the splash icons that i downloaded from the tutorial. This was causing errors when trying to launch the project because of the ‘@’ sign in the file names. After reading the error message and re-reading the tutorial i discovered that i had missed a step when following the tutorial and subsequently renamed them without the ‘@’ signs this resolved the error.
 
 
@@ -87,7 +87,7 @@ From my googling I found many people with a similar issue however most of their 
 
 Timeline Text Only Post
 
-In an attempt to get something to actually work I followed a tutorial from a blog post app that I would hopefully be able to adapt to implement text based timeline posts on the app. I followed this tutorial https://code.tutsplus.com/tutorials/creating-a-blogging-app-using-react-part-3-add-display-post--cms-28685
+In an attempt to get something to actually work I followed a tutorial from a blog post app that I would hopefully be able to adapt to implement text based timeline posts on the app. I followed this [tutorial](https://code.tutsplus.com/tutorials/creating-a-blogging-app-using-react-part-3-add-display-post--cms-28685)
 Making sure to use Git branching so that I could edit the project without fear of potentially breaking the master branch. For this attempt of resolving an issue I decided that I would try to follow the tutorial closely and ignore what was already in the project. I did this in the hope that I would be able to get the feature working and then work with my teammates to correctly implement it into the current working app.
 
 The first step in the tutorial was to install a node module with npm that would allow the app to validate user credentials upon login and then create a session for that user.
