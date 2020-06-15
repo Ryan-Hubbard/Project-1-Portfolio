@@ -23,7 +23,7 @@ to scratch. Using the login provided by our lecturer I logged into the firebase 
 ## Gitlab vs Github.
 For the first couple weeks of the semester we could not work on the project at all because the current build of the app was stuck on the polytech’s Gitlab servers which happened to be down. After we finally got access to the gitlab repository our first course of action was to migrate the repository to Github where we decided it would be safer than on the Gitlab servers. We also decided that making use of the projects feature of Github would be ideal for our sprint based approach we were taking. We could make a Github project for each sprint and assign tasks to various team members keeping track of them with a Kanban board layout.
 
-![SprintProject](/assets/sprintportfolio.jpg)
+![SprintProject](/assets/sprintportfolio.png)
 
 ## Resolving issues with the project from gitlab.
 
@@ -46,7 +46,7 @@ The first feature I attempted to implement was the addition of a password reset,
 
 The first step to implement a password reset feature was to add a link to a forgot password screen from the signup screen of our app. For this I needed to create a forgot password screen that users could click on to begin the password reset process. In this [commit](https://github.com/tawaab1/enabling-love/commit/27a86678fba0bb514aefdceb3defd4ce3e57188c) to our github repo I added a forgot password screen and the navigation that were required to access this screen. 
 
-![forgotpassword](/assets/forgotpassword.jpg)
+![forgotpassword](/assets/forgotpassword.png)
 
 During this I ran into some issues due to my lack of familiarity with React project file structures. The file locations that were given in the tutorial did not match up with the file structure of the project I was working on. This was a good learning opportunity because it made me spend time looking at the locations of files and their contents. This helped me learn the purpose of these files so that when I needed to make changes to them in the future I would have a basic understanding of where they were so my workflow would be improved.  
 
