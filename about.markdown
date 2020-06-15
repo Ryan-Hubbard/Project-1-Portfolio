@@ -63,11 +63,7 @@ After having to move to a different machine during the lockdown I have run into 
 
 This error occured because the computer could not find the path to my android SDK, by manually setting the path of my ANDROID_HOME system variable in windows environment variables. i was able to fix this error before running into another one.
 
-
-
-
 This is a new error i have not seen before when trying to run a react-native project. My attempts to fix it have so far failed. I have reinstalled node_modules, and restarted my pc. I have run gradle clean on the android folder in the project.
-
 
 After discussing with my project group members, I discovered that I was using an incorrect version of nodejs and react-native. My version numbers did not match the version numbers being used by my team members and this was causing errors when i tried to run the project. Once I had found the correct version numbers from my team members I reinstalled nodejs and npm and the project ran fine without any issues.
 
@@ -76,12 +72,13 @@ After discussing with my project group members, I discovered that I was using an
 After having trouble trying to implement some more advanced features on the app, after a sprint retrospective I decided that I would try to implement something simple like a splash screen for the app. To do this I followed this [tutorial](https://medium.com/@appstud/add-a-splash-screen-to-a-react-native-app-810492e773f9).
 The first error I encountered when trying to implement the splash screen was that I didn’t correctly name the splash icons that i downloaded from the tutorial. This was causing errors when trying to launch the project because of the ‘@’ sign in the file names. After reading the error message and re-reading the tutorial i discovered that i had missed a step when following the tutorial and subsequently renamed them without the ‘@’ signs this resolved the error.
 
+![splashicon](/assets/wrongnamesplash.png)
 
 
-
-
-
-After following the tutorial some more and setting up the splash screen for an android app which all went well until i tried to edit the app.js file to make the app hide the splash screen. At this point the app would run but it would be stuck on the splashscreen and never hide and continue to open the app. This was because the tutorial used a hook method that I didn’t know how to implement into the app, as the tutorial assumed that this was a fresh project that only I was working on. After some googling I found a potential work around by using an in built function in nodejs to hide the splash screen when the app is ready to launch. However this also did not work.
+After following the tutorial some more and setting up the splash screen for an android app which all went well until i tried to edit the app.js file to make the app hide the splash screen. At this point the app would run but it would be stuck on the splashscreen and never hide and continue to open the app. This was because the tutorial used a hook method that I didn’t know how to implement into the app, as the tutorial assumed that this was a fresh project that only I was working on.
+![hookmethod](/assets/hookmethod.png)
+After some googling I found a potential work around by using an in built function in nodejs to hide the splash screen when the app is ready to launch. However this also did not work.
+![component](/assets/component.png)
 
 
 ## Splash screen troubleshooting
