@@ -127,7 +127,7 @@ Next I edited the home.html file I had created to implement various React native
 
 At the beginning of the semester we made use of our in class time as a team to communicate with each other regarding technical issues that we were facing. This gave us a great platform to discuss and solve problems that arose when we were working on the project. 
 
-![standup](/assets/MicrosoftTeams-image(1).png)
+![standup](/assets/standups.png)
 
 Unfortunately as the country went into COVID-19 related lockdown this was unable to continue. However as a team we found other ways to communicate using various online services. Our main method of communication was to make use of microsoft teams, we could use the message board type features of this to post about what we were working on or use it to organise standup meetings each week. We could also use this to work collaboratively on fixing errors that were encountered, below is a screenshot from the back-end issues section of our Teams group. While this was not ideal compared to being able to meet face to face it was a good compromise given the situation we were in. 
 
@@ -138,4 +138,4 @@ Unfortunately as the country went into COVID-19 related lockdown this was unable
 
 For our stand-up meeting we made use of Zoom video conferencing which has many features that make it pretty close to being as good as the real thing. The primary feature that makes zoom good to use for stand-up meetings is its screen share feature. With this we were able to share specific applications to our team members which made it much easier to solve problems together rather than having to manually screenshot various issues. This made what would have been a tedious process quite, quick and efficient.
 
-![zoommeetings](/assets/zoommeetings.png)
+![zoommeetings](/assets/zoommeeting.png)
