@@ -55,7 +55,11 @@ Once the forgot password screen was created and the relevant navigation was impl
 The next step in the process was where I ran into a problem, the tutorial then asked me to edit the config file of firebase. According to the tutorial there should be a firebase.js file in the config folder of the React project. However in our project this did not exist, it was apparent that the way our firebase implementation was different to how it was done in the tutorial. Unfortunately this was as far as I got in my attempt to implement a password reset feature, this taught me that my understanding of React was not great and was compounded by the fact we were building features into an app that already existed. This is a challenge that I have not faced before as throughout this degree we have primarily worked on projects individually and even when we work on group projects we generally start from scratch. The challenge that working on an existing project presents is that without great documentation it takes more time to understand how various components of a project work. This adds complexity to any task that is being completed as you have to first learn how a system works before you can start to edit and build upon that system.
 
 ## Installation errors on new machine during lockdown
+![stuck](/assets/stuck.png)
+
 After having to move to a different machine during the lockdown I have run into many errors when trying to run the project. The one above was giving me issues because it could not verify I had accepted the license agreements for the android SDKs. After some googling I used android studio to download and switch to a different android SDK and I accepted the licenses correctly during setup. This fixed that error and moved me on to a new error.
+
+![errorSDK](/assets/errorSDK.png)
 
 This error occured because the computer could not find the path to my android SDK, by manually setting the path of my ANDROID_HOME system variable in windows environment variables. i was able to fix this error before running into another one.
 
