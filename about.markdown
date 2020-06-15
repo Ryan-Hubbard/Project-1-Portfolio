@@ -76,15 +76,24 @@ The first error I encountered when trying to implement the splash screen was tha
 
 
 After following the tutorial some more and setting up the splash screen for an android app which all went well until i tried to edit the app.js file to make the app hide the splash screen. At this point the app would run but it would be stuck on the splashscreen and never hide and continue to open the app. This was because the tutorial used a hook method that I didn’t know how to implement into the app, as the tutorial assumed that this was a fresh project that only I was working on.
+
 ![hookmethod](/assets/hookmethod.png)
+
 After some googling I found a potential work around by using an in built function in nodejs to hide the splash screen when the app is ready to launch. However this also did not work.
+
 ![component](/assets/component.png)
 
 
 ## Splash screen troubleshooting
 
-After my first attempt at implementing a splash screen failed, I spent some time trying to troubleshoot it. This mainly involved googling the issue and trying to implement the various fixes that were suggested by React users. The first of the fixes that was suggested was running a gradle clean on the project folder, the intention of this command is to clean up any old files that remain from previous builds of the project. This was the output from running the clean command, it failed due to a missing file. I then ran npm install to make sure that I had all the correct modules.
+After my first attempt at implementing a splash screen failed, I spent some time trying to troubleshoot it. This mainly involved googling the issue and trying to implement the various fixes that were suggested by React users. The first of the fixes that was suggested was running a gradle clean on the project folder, the intention of this command is to clean up any old files that remain from previous builds of the project. This was the output from running the clean command, it failed due to a missing file. 
+
+![gradleclean](/assets/gradleclean.png)
+
+I then ran npm install to make sure that I had all the correct modules.
 After running npm install on the project I tried to run gradle clean again this time it completed successfully, however it did not fix my issue with the app being stuck on the splash screen. Nonetheless this was still a useful command to know how to use as it appeared to be a common fix for various issues with react-native apps.
+
+![gradlecleanwork](/assets/gradlecleanworking.png)
 
 From my googling I found many people with a similar issue however most of their solutions seemed to be issues with various packages not running correctly and most of them had already successfully implemented a splash screen and it subsequently broke when they updated their packages. These were not very helpful to me as my splash screen has never worked in the first place. However I found that reading through the posts was helpful as it helped me gain background knowledge of React and gave me ways I could potentially use to debug the project in the future.
 
@@ -102,27 +111,31 @@ npm install express-session --save
 
 Once installed I edited the App.js file to start implementing the module I had just installed. I followed the tutorial and implemented the following lines of code.
 
-
+![tutorialimage](/assets/tutorialforportfolio.png)
 
 
 The next step in the tutorial was where our project differed from the one in the tutorial as the file structure was different. So in order to follow the tutorial accurately I created the file structure that was in the tutorial and added the home.html file that was given by the tutorial. I hoped doing it this way would actually get the feature to work even if it didn’t make any sense with the current state of the app.  I then continued to edit the app.js file to add routes to the html file that was added in the previous step. This was not something that I had seen in our project before but I added it anyway in the hopes that it would work.
 
+![htmlfileadd](/assets/htmlfilestructure.png)
 
-
-
-
-
-
+![route](/assets/routemethod.png)
 
 Next I edited the home.html file I had created to implement various React native libraries that would be needed for creating text posts on the page. After I did this I decided to try and run the app to see if my changes had broken it yet, to my surprise the app compiled and ran on my virtual device. However upon logging in to the app nothing had changed. This told me that the changes I had implemented were not actually being run. This was because the tutorial was based upon a different React project so when I tried to follow the tutorial with our team’s project the code I added wasn’t being run. At this point I decided to stop following the tutorial as it wasn’t feasible to try and refactor our app to be able to use the code from the tutorial.
 
 
 ## Team Communication
 
-At the beginning of the semester we made use of our in class time as a team to communicate with each other regarding technical issues that we were facing. This gave us a great platform to discuss and solve problems that arose when we were working on the project. Unfortunately as the country went into COVID-19 related lockdown this was unable to continue. However as a team we found other ways to communicate using various online services. Our main method of communication was to make use of microsoft teams, we could use the message board type features of this to post about what we were working on or use it to organise standup meetings each week. We could also use this to work collaboratively on fixing errors that were encountered, below is a screenshot from the back-end issues section of our Teams group. While this was not ideal compared to being able to meet face to face it was a good compromise given the situation we were in. 
+At the beginning of the semester we made use of our in class time as a team to communicate with each other regarding technical issues that we were facing. This gave us a great platform to discuss and solve problems that arose when we were working on the project. 
+
+![standup](/assets/MicrosoftTeams-image(1).png)
+
+Unfortunately as the country went into COVID-19 related lockdown this was unable to continue. However as a team we found other ways to communicate using various online services. Our main method of communication was to make use of microsoft teams, we could use the message board type features of this to post about what we were working on or use it to organise standup meetings each week. We could also use this to work collaboratively on fixing errors that were encountered, below is a screenshot from the back-end issues section of our Teams group. While this was not ideal compared to being able to meet face to face it was a good compromise given the situation we were in. 
+
+![backendteams](/assets/backendteams.png)
+
 
 ## Zoom Conferencing
 
 For our stand-up meeting we made use of Zoom video conferencing which has many features that make it pretty close to being as good as the real thing. The primary feature that makes zoom good to use for stand-up meetings is its screen share feature. With this we were able to share specific applications to our team members which made it much easier to solve problems together rather than having to manually screenshot various issues. This made what would have been a tedious process quite, quick and efficient.
 
-
+![zoommeetings](/assets/zoommeetings.png)
